@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>*{
+        margin:0;
+        height: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+        div.img{
+            position: relative;
+            width: 140px;
+            margin:0 auto;
+            z-index: 1;
+        }
+        img{
+            border: none;
+            width: 140px;
+            height: 140px;
+        }
+        b{
+            /*display: none;*/
+            position: absolute;
+           width:140px;
+            height:140px ;
+            left:0px;
+            top:0px;
+            z-index:2 ;
+            background-color: rgba(0,0,0,0.6);
+        }
+        i{
+            position: absolute;
+            width: 30px;
+            height: 15px;
+            background: url("../images/icon.png")no-repeat 0 -124px;
+            border-radius: 3px;
+            left:5px;
+            top:5px;
+            background-color:#FFFFFF;
+            z-index:2 ;
+        }
+        em{
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            background: url("../images/icon.png")no-repeat 0 -265px;
+            top:0px;
+            right: 0;
+            z-index:2 ;
+        }
+        span a{
+            display: none;
+            position: absolute;
+            width:92px;
+            height:140px ;
+            left:0px;
+            top:0px;
+            z-index:3 ;
+            padding: 32px 24px 0 24px;
+            background-color: rgba(0,0,0,0.6);
+            font-size: 12px;
+            line-height:18px ;
+            color:red;
+
+        }
+       span span.on{
+           display:none ;
+            position: absolute;
+            width:68px ;
+            height: 30px;
+            line-height:30px ;
+            border-radius: 3px;
+            background:#999999 ;
+            color:#FFFFFF;
+            text-align: center;
+           left: 36px;
+           top:80px;
+           font-size:11px ;
+           z-index:3 ;
+       }
+    </style>
+</head>
+<body>
+<div class="img">
+
+    <a href=""><img src="xia.jpg" alt=""/></a>
+    <b></b>
+    <i>
+        <!--<div class="hidden">-->
+        <!--<p>收藏</p>-->
+        <!--<p>发送到</p>-->
+        <!--<p>发送到</p>-->
+        <!--<p>发送到</p>-->
+    <!--</div>-->
+    </i>
+    <em></em>
+    <span><a href="">基础最近流行的为你推荐</a>
+    <span class="on">不感兴趣</span></span>
+</div>
+</body>
+</html>

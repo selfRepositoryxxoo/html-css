@@ -1,0 +1,59 @@
+*{margin:0;
+padding:0;
+}
+ul,ol{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+div{
+    width:100%;
+    background: #004d00;
+    height:49px;
+}
+ul{
+    position: relative;
+    width:960px;
+    margin:0 auto;
+    line-height:49px;
+}
+li{float:left;
+    padding:0 31px;
+    margin-left: 1px;
+
+}
+li a{
+    color:red;
+}
+li:before{
+    position: relative;
+    width:1px;
+    height:13px;
+    display: inline-block;
+    background: #f1f1f5;
+    content: "";
+    vertical-align: middle;
+    left:-32px;
+}
+li:hover{
+    background: #c4c2c8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

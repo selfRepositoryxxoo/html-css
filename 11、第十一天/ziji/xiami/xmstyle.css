@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: arial, "Î¢ÈíÑÅºÚ";
+}
+ul,ol{
+    list-style: none;
+}
+img,input{
+    border:none;
+    vertical-align: middle;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+.clear{
+    clear:both;
+    height:0;
+    line-height:0;
+    font-size:0;
+}
+.header{
+    width:100%;
+    height:60px;
+    background:#f87f1c;
+}
+.top{
+    width:1200px;
+    height:60px;
+    margin:0 auto;
+    background: #FFFFFF;
+}
+.top .logo{
+    margin-right: 6px;
+width:200px;
+    height:60px;
+    float:left;
+    background: url("default.png") no-repeat;
+}
+.top .logo:hover{
+    background-position: 0 -60px;
+}
+.top p{
+    float:left;
+    width:90px;
+    line-height: 60px;
+    background-color:#f9831f;
+    text-align: center;
+}
+.top p a,.top li a{
+    color:#FFFFFF;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+.top ul{
+    padding-left: 16px;
+   float:left;
+    background-color:#f9831f ;
+    height:45px;
+    padding-top: 15px;
+}
+.top li{
+    float:left;
+    border: 1px solid #666666;
+    width:60px ;
+    height:28px ;
+    line-height: 28px;
+    text-align: center;
+    font-size: 13px;
+}
+.top li:hover{
+    background-color: red;
+}
+.top .fo{
+    float: left;
+    padding-top: 15px;
+    padding-left: 20px;
+    background-color: #f9831f;
+    height: 45px;
+    position: relative;
+}
+.top .fo input{
+    width: 200px;
+    height: 28px;
+    border: 1px solid #333333;
+    border-radius: 3px;
+    padding-left: 28px;
+
+}
+.top .fo i{
+    display: block;
+    position: absolute;
+    width:15px ;
+    height: 15px;
+    top:22px;
+    left:28px;
+    background: url("header_icon.png") no-repeat -5px -53px;
+}
+.top .dl{
+    float: left;
+    padding-left: 15px;
+    height: 45px;
+    padding-top: 15px;
+    background-color: #f9831f;
+}
+.top .dl a{
+    float: left;
+    display: block;
+     width: 56px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #B25415;
+    border-radius: 3px;
+    font-size:11px;
+    text-align: center;
+    color:#FFFFFF;
+}
+.top .zc{
+    height: 30px;
+    float: left;
+    margin-top:15px;
+    border: 1px solid #000000;
+    margin-left: 15px;
+    background:#f9831f ;
+}
+.top .zc .le{
+    float: left;
+    display:block;
+    text-align: center;
+    font-size: 11px;
+    height:30px;
+    line-height:30px ;
+    border-right: 1px solid #000000;
+}
+.top .zc .bk{
+    float: left;
+    display:block;
+    height: 28px;
+    width: 26px;
+    background:url("header_thirdparty_icon.png") no-repeat -26px 2px;
+}
+.top .zc .qq{
+    float:left;
+    display:block;
+    height: 28px;
+    width: 26px;
+    background:url("header_thirdparty_icon.png") no-repeat -2px 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

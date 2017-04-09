@@ -1,0 +1,58 @@
+*{
+    margin: 0;padding: 0;
+
+}
+ul,ol{
+    list-style: none;
+}
+img,input{
+    border: none;
+    vertical-align: middle;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+em,i{
+    list-style: normal;
+}
+.clear{
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+}
+.groom .list{
+    border-bottom: 1px solid red;
+}
+.groom .list .listTop{
+    height:28px;
+    line-height: 28px;
+    background: #005ea7;
+}
+.groom .list .listTop .name{
+    float: left;
+    width: 390px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

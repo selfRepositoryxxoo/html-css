@@ -1,0 +1,212 @@
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,table,tbody,thead,tfoot,tr,th,td,caption,a,input,form,select,option,label,textarea,img,span,i,b,em,strong,sub,sup,u{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Yahei", Arial, SimSun;
+    font-size: 12px;
+}
+i,em{
+    font-style: normal;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img,input{
+    border: none;
+    vertical-align: middle;
+    outline: none;
+}
+.clear{
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+}
+.con_hover{
+    position: absolute;
+    /*display: none;*/
+    width:333px ;
+    height:220px ;
+    padding:6px;
+    background: url("../images/name_card_bg.png")no-repeat;
+    background-position: 0 0;
+}
+.con_hover .conBtn{
+    position: absolute;
+    left:0px ;
+    top:0px;
+    height:14px ;
+    width: 14px;
+    background: url("../images/name_card_bg.png")no-repeat;
+    background-position: -50px -250px ;
+}
+.conBox{
+    border: 1px solid red;
+    border-radius: 3px;
+    background:#fff ;
+    height:218px ;
+    /*不能一样两个height*/
+}
+.conBox .conName{
+    padding:15px 0 0 20px;
+    height: 65px;
+    background: #f5f9fa;
+}
+.conBox .conName img{
+    width:50px ;
+    height:50px ;
+    float: left;
+    border-radius: 3px;
+}
+.conBox .conName p{
+    margin-left:10px;
+    float: left;
+}
+.conBox .conName p a{
+    color:#333;
+    display: block;
+    font-size: 11px;
+    line-height: 25px;
+}
+.conBox .conName p a i{
+    display: inline-block;
+    width:14px ;
+    height:14px;
+    background: url("../images/icons.png")no-repeat;
+    background-position: 0 -50px;
+    vertical-align: middle;
+    margin-left:4px;
+}
+.conBox .conName p span{
+    display: block;
+    color:red;
+}
+.conBox .conName p span i,.conBox .conName p span b{
+    display: inline-block;
+    width:16px ;
+    height:16px ;
+    vertical-align: middle;
+    background: url("../images/icon2.png")no-repeat;
+
+}
+.conBox .conName p span i{
+    background-position: -78px -21px;
+}
+.conBox .conName p span b{
+    background-position: -110px -21px;
+}
+.conBox .conNum{
+    padding-left:20px ;
+    line-height:46px ;
+    height: 46px;
+}
+.conBox .conNum span{
+    font-size:11px ;
+    float: left;
+    color: red;
+    padding-right: 5px;
+}
+.conBox .conNum p{
+    float: left;
+    font-size: 0;
+}
+.conBox .conNum p i{
+   display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background:#5c7284;
+    vertical-align: middle;
+    margin-right: 1px;
+    text-align: center;
+    color: azure;
+}
+.conBox .link{
+    width:331px;
+    height:40px ;
+    line-height: 40px;
+    border: 1px solid red;
+    border-left: none;
+    border-right: none;
+    background: #05B600;
+}
+.conBox .link li{
+    float: left;
+    width: 110px;
+    text-align: center;
+    border-left: 1px solid mediumvioletred;
+}
+.conBox .link li span{
+    color: red;
+    margin-left: 5px;
+
+}
+.conBox .link .noone{
+    width: 109px;
+    border-left: none;
+}
+.conBox .followMe{
+   padding-top:12px ;
+}
+.conBox .followMe p{
+    float: left;
+    margin-left: 20px;
+    width:81px;
+    height: 24px;
+    line-height:24px ;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 3px;
+    font-size:11px ;
+}
+.conBox .followMe .gen i{
+    display: inline-block;
+    width:18px ;
+    height: 18px;
+    vertical-align: middle;
+    background: url("../images/btn_follow_play.gif")no-repeat;
+    background-position:0 0 ;
+    margin-right: 4px;
+}
+.conBox .followMe .jia i{
+    display: inline-block;
+    width:10px ;
+    height: 10px;
+    line-height: 10px;
+    vertical-align: -1px;
+    color: #fa7a19;
+    font-size: 19px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
